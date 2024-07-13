@@ -1,9 +1,12 @@
 import waffle from './waffle.jpeg';
 import './css/style.css';
 
-const generateBody = () => {
+
+const generateHome = () => {
+    console.log('generate home')
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = '';
+
     const h1 = document.createElement('h1');
     let img = new Image();
     img.src = waffle
@@ -14,5 +17,4 @@ const generateBody = () => {
     contentDiv.appendChild(img);
     contentDiv.appendChild(p);
 }
-
-export default generateBody;
+export default generateHome;
