@@ -3,7 +3,6 @@ import './css/style.css';
 
 
 const generateHome = () => {
-    console.log('generate home')
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = '';
 

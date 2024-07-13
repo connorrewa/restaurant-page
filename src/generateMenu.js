@@ -3,7 +3,6 @@ import waffle from './waffle.jpeg';
 
 
 const generateMenu = () => {
-    console.log('generate menu')
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = '';
 

@@ -2,7 +2,6 @@ import './css/style.css'
 
 
 const generateAbout = () => {
-    console.log('generate about')
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = '';
 
